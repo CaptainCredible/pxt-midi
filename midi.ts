@@ -372,4 +372,15 @@ namespace midi {
     export function drumSound(sound: DrumSound): number {
         return sound;
     }
+    
+        /**
+     * Selects a poo sound
+     * @param pooSound the type of sound
+     */
+    //% blockId=midi_poo_sound block="%poosound"
+    //% shim=TD_ID weight=5 advanced=true
+    export function pooSound(sound: PooSound): number {
+        return sound;
+    }
+    
 }
